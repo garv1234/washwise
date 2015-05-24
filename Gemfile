@@ -50,3 +50,8 @@ end
 
 # To use debugger
 # gem 'debugger'
+
+gem 'location_service', :path => 'engines/location_service'
+gem 'user_service', :path => 'engines/user_service'
+gem 'cleaning_service', :path => 'engines/cleaning_service'
+
