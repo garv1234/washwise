@@ -21,7 +21,20 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-gem 'jquery-rails'
+group :views do
+  gem 'bootstrap-datepicker-rails', '1.3.0.2' # For date selector
+  gem 'chartkick','<=1.3.2','>=1.2.4' # for google charts
+  gem 'font-awesome-rails', '<=4.2.0.0','>=4.1.0.0' ## Font-awesome
+  gem 'formtastic', '2.1.0' # cool form builders
+  gem 'gmaps4rails', '2.1.2' # google maps integration
+  gem 'jquery-rails', '~>3.1.1'  # jquery
+  gem 'jquery-ui-rails', '4.0.1' # jquery ui elements
+  gem 'jquery-validation-rails','<=1.12.0','>=1.11.1.1' # jquery validations
+  gem 'nested_form', '0.3.2' # form builder for associated models
+  gem 'select2-rails', '3.5.9.2' # cool select boxes in views
+  gem 'twitter-bootstrap-rails', '2.2.8' # twitter bootstrap , css framework
+end
+
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
